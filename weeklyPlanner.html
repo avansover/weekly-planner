@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='weeklyPlanner.css'>
+
+</head>
+
+<body>
+
+    <div id="pageDiv" class="pageDivs">
+
+        <div id="guardsDiv" class="pageDivs">
+
+            <div class="guardSourceDiv" id="guardsSourceDiv" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+                <button id="testButton" onclick=deleteAllShiftDivForButton(dataBase)>Remove shifts</button>
+
+            </div>
+
+        </div>
+
+        <div id="tableDiv" class="pageDivs">
+
+            <div id="day1Div" class="dayDiv">
+
+                <div id="day1DateDiv" class="dateDiv">sun</div>
+
+                <div id="day1ShiftDiv" class="dayShiftDiv"></div>
+
+            </div>
+
+            <div id="day2Div" class="dayDiv">
+
+                <div id="day2DateDiv" class="dateDiv">mon</div>
+
+                <div id="day2ShiftDiv" class="dayShiftDiv"></div>
+
+            </div>
+
+            <div id="day3Div" class="dayDiv">
+
+                <div id="day3DateDiv" class="dateDiv">tue</div>
+
+                <div id="day3ShiftDiv" class="dayShiftDiv"></div>
+
+            </div>
+
+            <div id="day4Div" class="dayDiv">
+
+                <div id="day4DateDiv" class="dateDiv">wed</div>
+
+                <div id="day4ShiftDiv" class="dayShiftDiv"></div>
+
+            </div>
+
+            <div id="day5Div" class="dayDiv">
+
+                <div id="day5DateDiv" class="dateDiv">thu</div>
+
+                <div id="day5ShiftDiv" class="dayShiftDiv"></div>
+
+            </div>
+
+            <div id="day6Div" class="dayDiv">
+
+                <div id="day6DateDiv" class="dateDiv">fri</div>
+
+                <div id="day6ShiftDiv" class="dayShiftDiv"></div>
+
+            </div>
+
+            <div id="day7Div" class="dayDiv">
+
+                <div id="day7DateDiv" class="dateDiv">sat</div>
+
+                <div id="day7ShiftDiv" class="dayShiftDiv"></div>
+
+            </div>
+
+
+
+        </div>
+
+        <div id="statDiv" class="pageDivs">3</div>
+
+
+    </div>
+
+    <div id="mainTable">
+
+
+
+    </div>
+
+
+
+    <script src='weeklyPlanner.js'></script>
+</body>
+
+</html>
