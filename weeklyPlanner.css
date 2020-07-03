@@ -1,0 +1,201 @@
+#pageDiv {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    border: 0px solid black;
+}
+
+.pageDivs {
+    height: fit-content;
+    width: fit-content;
+    border: 0px solid black;
+}
+
+#guardsDiv {
+    width: 200px;
+}
+
+.guardSourceDiv {
+    height: fit-content;
+    width: fit-content;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.guardsTicket{
+    height: 60px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.guard1Shifts {
+    height: 60px;
+    width: 100px;
+    background-color: rgb(255, 128, 128);
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.guard2Shifts {
+    height: 60px;
+    width: 100px;
+    background-color: rgb(128, 255, 128);
+    border: 1px solid green;
+    border-radius: 5px;
+}
+
+.guard3Shifts {
+    height: 60px;
+    width: 100px;
+    background-color: rgb(128, 128, 255);
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+#tableDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.dayDiv {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    width: fit-content;
+    border: 0px solid black;
+}
+
+.dayShiftDiv {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 2px;
+    border: 1px solid rgb(200, 200, 200);
+}
+
+.postDiv {
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    border: 0px solid rgb(255, 0, 0);
+}
+
+.shiftDiv {
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    z-index: 1;
+}
+
+.closeshiftDiv {
+    position: absolute;
+    border: 2px solid gray;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.shiftDiv .leftResizerDiv {
+    position: absolute;
+    left: 0px;
+    cursor: w-resize;
+    z-index: 2;
+}
+
+.shiftDiv .startHourDiv {
+    position: absolute;
+    text-align: center;
+    font-size: 12px;
+    left: 0px;
+    height: 12px;
+    width: 40px;
+    border: 0px solid black;
+    z-index: 1;
+}
+
+.shiftDiv .nameDiv {
+    position: absolute;
+    text-align: center;
+    font-size: 12px;
+    right: 50%;
+    height: 12px;
+    width: fit-content;
+    border: 0px solid black;
+    z-index: 2;
+}
+
+.shiftDiv .endHourDiv {
+    position: absolute;
+    text-align: center;
+    font-size: 12px;
+    right: 0px;
+    height: 12px;
+    width: 40px;
+    border: 0px solid black;
+    z-index: 1;
+}
+
+.shiftDiv .rightResizerDiv {
+    position: absolute;
+    right: 0px;
+    cursor: e-resize;
+    z-index: 2;
+}
+
+.postDivBox {
+    display: flex;
+}
+
+.postName {
+    align-self: center;
+    width: fit-content;
+    height: fit-content;
+    margin: 2px;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.dateDiv {
+    width: 60px;
+    height: 60px;
+    background-color: cornflowerblue;
+    margin: 1px;
+    border: 0px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.hourBoxes {
+    height: fit-content;
+    width: fit-content;
+    border: 0px solid rgb(100, 255, 100);
+}
+
+.hourDiv {
+    height: 16px;
+    width: 30px;
+    margin: 4px;
+    border: 1px solid rgb(150, 150, 150);
+}
+
+.statuses {
+    font-size: 14px;
+    height: 15px;
+    width: 30px;
+    margin: 4px;
+    border: 1px solid rgb(175, 175, 175);
+    text-align: center;
+}
+
+#markerDiv {
+    position: absolute;
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 5px;
+    z-index: -1;
+}
